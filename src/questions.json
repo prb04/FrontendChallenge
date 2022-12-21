@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "question": "Which South-American country is drafting a new Constitution??",
+      "options": [
+        { "answer": "Chile", "isCorrect": true },
+        { "answer": "Brazil" },
+        { "answer": "Argentina"},
+        { "answer": "Bolivia" }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Which state launched the Student Startup and Innovation Policy (SSIP) 2.0",
+      "options": [
+        { "answer": "Telangana" },
+        { "answer": "Gujarat", "isCorrect": true },
+        { "answer": "Maharashtra"},
+        { "answer": "Odisha" }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "The Commonwealth Games started from which among the following countries?",
+      "options": [
+        { "answer": "England"},
+        { "answer": "Australia" },
+        { "answer": "Canada", "isCorrect": true },
+        { "answer": "India" }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which was the first brand, Sachin Tendulkar endorsed in the beginning of his career?",
+      "options": [
+        { "answer": "Boost", "isCorrect": true },
+        { "answer": "Pepsi" },
+        { "answer": "Nike" },
+        { "answer": "None of the above" }
+      ]
+    },
+    {
+      "id": 5,
+      "question": " In which year was the Olympic Symbol designed?",
+      "options": [
+        { "answer": "1915"},
+        { "answer": "1912", "isCorrect": true },
+        { "answer": "1920" },
+        { "answer": "1924" }
+      ]
+    }
+  ]
+  
