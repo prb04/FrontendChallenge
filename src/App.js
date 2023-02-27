@@ -87,7 +87,7 @@ const App = () => {
           {showScorePage ? (
             <div className="mt-28">
               <h1 className="text-3xl font-semibold text-center text-black mb-10">
-                Congratulations! You have sucessfully completed the test
+                Congratulations! You have successfully completed the test
               </h1>
               <p className="text-center text-xl text-black font-medium">
                 Total Questions: {questions.length}
@@ -123,11 +123,11 @@ const App = () => {
                   </div>
                 </div>
                 <div className="flex flex-col w-full">
-                  {questions[currentQuestion].options.map((answer, index) => (
+                  {questions[currentQuestion].options?.map((answer, index) => (
                     <div
                       key={index}
                       className="flex items-center w-full py-4 pl-5 m-2 ml-0 space-x-2 border-[2px] border-stone-800 cursor-pointer rounded-xl"
-                      onClick={(e) => handleAnswer(answer.answer)}
+                      onClick={() => handleAnswer(answer.answer)}
                     >
                       <input
                         type="radio"
